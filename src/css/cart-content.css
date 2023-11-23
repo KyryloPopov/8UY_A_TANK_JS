@@ -1,0 +1,14 @@
+/*---------------------------------------------------------*/
+
+.container {
+    width: 100%;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.section_cart {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
