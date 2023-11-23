@@ -6,3 +6,8 @@
   --grey-color: #a3a3a3;
   --light-color: #e8e8e2;
 }
+
+body {
+  font-family: 'PP Neue Montreal', sans-serif;
+  color: var(--black-color);
+}
