@@ -380,7 +380,6 @@
 
     .laptop_cart {
         display: flex;
-        align-items: center;
         justify-content: space-between;
     }
 
@@ -393,6 +392,20 @@
     }
     
     .cart_order_container {
-        margin-top: 120px;
+        margin-top: 0px;
+    }
+
+    
+    .btn_delete_container {
+        margin-bottom: 44px;
+    }
+
+    
+    .logo_title_container {
+        margin-bottom: 14px;
+    }
+
+    .title_btn_delete {
+        width: 500px;
     }
 }
