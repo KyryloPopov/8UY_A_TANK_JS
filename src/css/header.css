@@ -1,15 +1,8 @@
-.container {
-  width: 100%;
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-}
 .container-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 20px 0 20px;
+  padding-top: 18px;
 }
 
 .header-logo-container {
@@ -101,9 +94,8 @@
 }
 
 @media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 24px 32px 0 32px;
+  .container-header {
+    padding-top: 24px;
   }
   .container-logo {
     width: 197px;
@@ -152,10 +144,6 @@
 }
 
 @media (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-    padding: 24px 100px 0 100px;
-  }
   .nav-list {
     gap: 24px;
   }
