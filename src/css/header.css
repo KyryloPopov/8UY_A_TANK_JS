@@ -145,6 +145,10 @@
     line-height: 1.33;
     text-transform: uppercase;
   }
+  .nav-item-cart {
+    display: flex;
+    align-items: center;
+  }
 }
 
 @media (min-width: 1440px) {
