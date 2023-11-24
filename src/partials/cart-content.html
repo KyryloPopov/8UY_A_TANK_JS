@@ -1,61 +1,68 @@
 <section class="section_cart">
-    <div class="container">
-        <div class="logo_title_container">
-            <span class="basket_icon_span">
-                <svg class="basket_icon" width="18" height="18">
-                    <use href="./img/kupi-tank-sprite.svg#icon-Basket"></use>
-                </svg>
-            </span>
-            <h2 class="basket_title">Cart (0)</h2>
-        </div>
-        <div class="cart_products_container">
+    <div class="container cart_container">
+        <div class="title_btn_delete">
+            <div class="logo_title_container">
+                <span class="basket_icon_span">
+                    <svg class="basket_icon" width="18" height="18">
+                        <use href="./img/kupi-tank-sprite.svg#icon-Basket"></use>
+                    </svg>
+                </span>
+                <h2 class="basket_title">Cart (0)</h2>
+            </div>
             <div class="btn_delete_container">
                 <button type="button" class="cart_delete_button">Delete All
-                    <svg class="close_icon" width="18" height="18">
+                    <svg class="close_icon" width="22" height="22">
                         <use href="./img/kupi-tank-sprite.svg#icon-close"></use>
                     </svg>
                 </button>
             </div>
-            <div class="cart_products">
-                <div class="cart_product">
-                    <button type="button">
-                        <svg class="close_icon" width="18" height="18">
-                            <use href="./img/kupi-tank-sprite.svg#icon-close"></use>
-                        </svg>
-                    </button>
-                    <div class="cart_image">
-                        <img src="" alt="">
-                    </div>
-                    <div class="cart_product_info">
-                        <h3 class="cart_product_title">Avocado</h3>
-                        <div class="cart_category_and_size">
-                            <p class="cart_category">Category:<span>Fresh Produce</span></p>
-                            <p class="cart_size">Size:<span>Each</span></p>
+        </div>
+        <div class="laptop_cart">
+            <div class="cart_products_container">
+                <div class="cart_products">
+                    <div class="cart_product">
+                        <button type="button" class="cart_close_btn">
+                            <svg class="close_icon" width="16" height="16">
+                                <use href="./img/kupi-tank-sprite.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                        <div class="cart_image">
+                            <img src="./img/image 2.png" alt="Avocado">
                         </div>
-                        <p class="cart_product_price">$1.99</p>
+                        <div class="cart_product_info">
+                            <h3 class="cart_product_title">Avocado</h3>
+                            <div class="cart_category_and_size">
+                                <p class="cart_category">Category: <span>Fresh Produce</span></p>
+                                <p class="cart_size">Size: <span>Each</span></p>
+                            </div>
+                            <p class="cart_product_price">$1.99</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="cart_order_container">
-            <h2 class="cart_order_title">Your Order</h2>
-            <div class="cart_total_container">
-                <h3 class="cart_total_title">Total</h3>
-                <p class="cart_sum">Sum:<span>$12.94</span></p>
+            <div class="laptop_cart_mini">
+                <div class="cart_order_container">
+                    <h2 class="cart_order_title">Your Order</h2>
+                    <div class="cart_total_container">
+                        <h3 class="cart_total_title">Total</h3>
+                        <p class="cart_sum">Sum: <span>$12.94</span></p>
+                    </div>
+                </div>
+                <div class="cart_form_container">
+                    <form class="cart_form">
+                        <div class="cart_form_block">
+                            <span>Mail: </span>
+                            <input 
+                            type="email" 
+                            name="mail" 
+                            placeholder="Enter your email" 
+                            class="cart_input"
+                            />
+                        </div>
+                    </form>
+                    <button type="submit" class="cart_form_btn">Checkout</button>
+                </div>
             </div>
-        </div>
-        <div class="cart_form_container">
-            <form class="cart_form">
-                <label class="cart_label">
-                    Mail:
-                    <input 
-                    type="text" 
-                    name="mail" 
-                    placeholder="Enter your email" 
-                    />
-                </label>
-            </form>
-            <button type="submit">Checkout</button>
         </div>
     </div>
 </section>
