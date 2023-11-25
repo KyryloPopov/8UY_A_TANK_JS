@@ -1,0 +1,136 @@
+/* body {
+  font-size: 16px;
+} */
+.styleFilterPosition {
+  margin-bottom: 8px;
+}
+.styleFilter {
+  color: rgba(1, 1, 1, 0.3);
+  font-family: Neue Montreal;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.search-container {
+  width: 295px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #e8e8e2;
+  max-width: 375px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+.category-container {
+  width: 295px;
+  height: 20px;
+  max-width: 375px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #e8e8e2;
+  position: relative;
+}
+
+.search-input,
+#categorySelect {
+  flex: 1;
+  border-radius: 15px;
+  border: 1px solid rgba(1, 1, 1, 0.3);
+  /* padding: 10px; */
+  height: 100%;
+  color: #000;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin-left: -30px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  fill: #000;
+}
+
+.styleCategory {
+  color: rgba(1, 1, 1, 0.6);
+  position: absolute;
+  /* margin-right: 10px;
+  margin-left: 10px; */
+}
+.arrow-container {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin-left: -30px;
+}
+
+.categoryList.show {
+  display: block;
+}
+
+.categoryList {
+  display: none;
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  box-shadow: 0px 4px 11.2125px 0px rgba(0, 0, 0, 0.04),
+    0px 20px 69px 0px rgba(0, 0, 0, 0.07);
+  border-radius: 15px;
+  top: 100%;
+  left: 0;
+  width: 305px;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.categoryList li {
+  /* padding: 10px; */
+  margin-left: 15px;
+}
+@media (min-width: 375px) {
+}
+
+@media (min-width: 768px) {
+  .styleForm {
+    column-gap: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  .search-container {
+    width: 229px;
+    height: 24px;
+  }
+
+  .category-container {
+    width: 194px;
+    height: 24px;
+  }
+  .categoryList {
+    width: 200px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .category-container {
+    width: 149px;
+  }
+  .categoryList {
+    width: 155px;
+  }
+}
