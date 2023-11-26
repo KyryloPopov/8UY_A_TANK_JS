@@ -15,7 +15,7 @@
     
     <link href="https://fonts.cdnfonts.com/css/pp-neue-montreal" rel="stylesheet">
     <script type="module" crossorigin src="/8UY_A_TANK_JS/assets/modulepreload-polyfill-ec808ebb.js"></script>
-    <link rel="stylesheet" href="/8UY_A_TANK_JS/assets/cart-f3f6e228.css">
+    <link rel="stylesheet" href="/8UY_A_TANK_JS/assets/cart-79d58dbb.css">
   </head>
   <body>
     <section class="header">
@@ -64,7 +64,7 @@
             <div class="logo_title_container">
                 <span class="basket_icon_span">
                     <svg class="basket_icon" width="18" height="18">
-                        <use href="/8UY_A_TANK_JS/assets/kupi-tank-sprite-a4e82077.svg#icon-Basket"></use>
+                        <use href="/8UY_A_TANK_JS/assets/kupi-tank-sprite-a4e82077.svg#icon-basket"></use>
                     </svg>
                 </span>
                 <h2 class="basket_title">Cart (0)</h2>
@@ -80,6 +80,42 @@
         <div class="laptop_cart">
             <div class="cart_products_container">
                 <div class="cart_products">
+                    <div class="cart_product">
+                        <button type="button" class="cart_close_btn">
+                            <svg class="close_icon" width="16" height="16">
+                                <use href="/8UY_A_TANK_JS/assets/kupi-tank-sprite-a4e82077.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                        <div class="cart_image">
+                            <img src="/8UY_A_TANK_JS/assets/image 2-7afc3547.png" alt="Avocado">
+                        </div>
+                        <div class="cart_product_info">
+                            <h3 class="cart_product_title">Avocado</h3>
+                            <div class="cart_category_and_size">
+                                <p class="cart_category">Category: <span>Fresh Produce</span></p>
+                                <p class="cart_size">Size: <span>Each</span></p>
+                            </div>
+                            <p class="cart_product_price">$1.99</p>
+                        </div>
+                    </div>
+                    <div class="cart_product">
+                        <button type="button" class="cart_close_btn">
+                            <svg class="close_icon" width="16" height="16">
+                                <use href="/8UY_A_TANK_JS/assets/kupi-tank-sprite-a4e82077.svg#icon-close"></use>
+                            </svg>
+                        </button>
+                        <div class="cart_image">
+                            <img src="/8UY_A_TANK_JS/assets/image 2-7afc3547.png" alt="Avocado">
+                        </div>
+                        <div class="cart_product_info">
+                            <h3 class="cart_product_title">Avocado</h3>
+                            <div class="cart_category_and_size">
+                                <p class="cart_category">Category: <span>Fresh Produce</span></p>
+                                <p class="cart_size">Size: <span>Each</span></p>
+                            </div>
+                            <p class="cart_product_price">$1.99</p>
+                        </div>
+                    </div>
                     <div class="cart_product">
                         <button type="button" class="cart_close_btn">
                             <svg class="close_icon" width="16" height="16">
@@ -120,12 +156,30 @@
                             />
                         </div>
                     </form>
-                    <button type="submit" class="cart_form_btn">Checkout</button>
+                    <button type="submit" class="cart_form_btn" data-modal-open>Checkout</button>
                 </div>
             </div>
         </div>
     </div>
+    <div class="empty_basket_container is-hidden">
+        <img src="./img/yellow shopping basket (1).png" alt="EmptyBasket" class="empty_basket_img">
+        <h2 class="title_empty_basket">Your basket is <span>empty...</span></h2>
+    <p class="text_empty_basket">Go to the main page to select your favorite products and add them to the cart.</p>
+    </div>
+    <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button type="button" class="modal_close_button" data-modal-close>
+                    <svg class="close_icon_modal" width="22" height="22">
+                        <use href="/8UY_A_TANK_JS/assets/kupi-tank-sprite-a4e82077.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <img src="/8UY_A_TANK_JS/assets/Group 1-a5331aee.png" alt="berries" class="berries_img">
+                <h2 class="modal_title">Order success</h2>
+                <p class="modal_text">Thank you for shopping at Food Boutique. Your order has been received and is now being freshly prepared just for you! Get ready to indulge in nourishing goodness, delivered right to your doorstep. We're thrilled to be part of your journey to better health and happiness.</p>
+            </div>
+    </div>
 </section>
+<script src="../js/modal.js"></script>
     
     
   </body>
