@@ -39,8 +39,12 @@
 .product-details {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 23px;
+}
+
+.discount-price-flex{
+    display: flex;
 }
 
 .product-name,
@@ -51,17 +55,17 @@
     font-weight: 500;
 }
 
-.product-name {
+/* .product-name {
     margin-right: 158px;
-}
+} */
 
 .product-price {
     margin-right: 8px;
 }
 
-.size-category {
+/* .size-category {
     margin-right: 83px;
-}
+} */
 
 .add-to-cart-icon {
     width: 34px;
