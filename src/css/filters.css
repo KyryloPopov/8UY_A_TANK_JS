@@ -1,0 +1,137 @@
+body {
+  font-size: 16px;
+}
+
+.styleFilterPosition {
+  margin-bottom: 0;
+}
+
+.styleFilter {
+  color: rgba(1, 1, 1, 0.3);
+  font-family: Neue Montreal;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.search-container {
+  width: 335px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  max-width: 375px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+
+.category-container {
+  width: 335px;
+  height: 48px;
+  max-width: 375px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: #e8e8e2;
+  position: relative;
+}
+
+.search-input,
+#categorySelect {
+  flex: 1;
+  border-radius: 30px;
+  border: 1px solid rgba(1, 1, 1, 0.3);
+  background-color: #e8e8e2;
+  height: 100%;
+  color: #000;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin-left: -30px;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  fill: #000;
+}
+
+.styleCategory {
+  color: rgba(1, 1, 1, 0.6);
+  position: absolute;
+}
+.arrow-container {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  margin-left: -30px;
+}
+
+#categorySelect {
+  color: rgba(1, 1, 1, 0.5);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-radius: 30px;
+}
+
+#categorySelect::-ms-expand {
+  display: none;
+}
+
+#categorySelect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding-right: 30px;
+}
+
+#categorySelect:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 8px solid #000;
+  pointer-events: none;
+}
+
+@media (min-width: 375px) {
+}
+
+@media (min-width: 768px) {
+  .styleForm {
+    column-gap: 16px;
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+  }
+
+  .search-container {
+    width: 269px;
+    height: 52px;
+  }
+
+  .category-container {
+    width: 189px;
+    height: 52px;
+  }
+}
+
+@media (min-width: 1024px) {
+}
