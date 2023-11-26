@@ -1,4 +1,3 @@
-//-----------------------FILTERS------------------------
 async function getCategories() {
   try {
     const response = await fetch(
@@ -11,31 +10,25 @@ async function getCategories() {
   }
 }
 
-async function populateCategories() {
-  const categoryList = document.getElementById('categoryList');
-  categoryList.innerHTML = '';
-  const categories = await getCategories();
-
-  if (categories) {
-    categories.forEach(category => {
-      const listItem = document.createElement('li');
-      listItem.textContent = category;
-      listItem.addEventListener('click', selectCategory);
-      categoryList.appendChild(listItem);
-    });
+async function getProductsByCategory(categoryId) {
+  try {
+    const response = await fetch(
+      `https://food-boutique.b.goit.study/api/products?category=${categoryId}`
+    );
+    const products = await response.json();
+    return products;
+  } catch (error) {
+    console.error('Error fetching products:', error);
   }
 }
 
-function toggleCategoryList() {
-  var categoryList = document.getElementById('categoryList');
-  categoryList.classList.toggle('show');
+async function fetchData() {
+  const categories = await getCategories();
+  const categoryId = categories[0]?.id;
+  const products = await getProductsByCategory(categoryId);
+
+  console.log('Categories:', categories);
+  console.log('Products in the first category:', products);
 }
 
-function selectCategory(e) {
-  var selectedCategory = e.target.textContent;
-  document.getElementById('categorySelect').value = selectedCategory;
-  toggleCategoryList();
-}
-
-populateCategories();
-//-----------------------FILTERS------------------------
+fetchData();
