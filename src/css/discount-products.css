@@ -24,8 +24,11 @@
 .discount-label {
     /* z-index: 1; */
     position: absolute;
-    left: 265px;
-    top: 3px;
+    top: 0;
+    right: 0;
+
+    margin-top: 3px;
+    margin-right: 10px;
 }
 
 .product-photo {
@@ -45,6 +48,7 @@
 
 .discount-price-flex{
     display: flex;
+    align-items: center;
 }
 
 .product-name,
