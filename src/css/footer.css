@@ -1,0 +1,270 @@
+
+@media screen and (min-width: 375px){
+
+    .footer-logo-link-tab{
+        display: none;
+    }
+}
+
+.footer {
+    background-color: var(--green-color);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+.footer-logo-link {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social-icon {
+    display: flex;
+    gap: 12px;
+}
+
+.footer-icon-link {
+    fill: var(--light-color);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+border: 1px solid rgba(232, 232, 226, 0.30);
+flex-shrink: 0;
+background-color: transparent;
+    display: flex;
+}
+
+.footer-icon-link:hover,
+.footer-icon-link:focus {
+background: rgba(232, 232, 226, 0.20);
+}
+
+.footer-text{
+    margin-top: 40px;
+}
+
+.footer-slogan {
+    color: var(--light-color);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.16; 
+    letter-spacing: -0.02px;
+}
+
+.footer-slogan-text {
+    color: var(--light-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28; 
+margin-top: 14px;
+color: rgba(232, 232, 226, 0.70);
+}
+
+.footer-form{
+    margin-top: 80px;
+}
+
+.footer-email-text {
+    color: var(--light-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28; 
+padding-bottom: 20px;
+}
+
+.footer-email {
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+}
+
+.footer-input-email {
+    display: flex;
+    width: 100%;
+    padding: 12px 18px;
+    align-items: center;
+    border-radius: 30px;
+border: 1px solid rgba(232, 232, 226, 0.60);
+color: rgba(232, 232, 226, 0.60);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28;
+background: var(--green-color);
+}
+
+.button-footer{
+    border-radius: 30px;
+border: 1px solid #E8E8E2;
+color: #010101;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.28;
+padding-bottom: 12px;
+padding-top: 12px;
+}
+
+.button-footer:hover,
+.button-footer:focus {
+    color: var(--green-color);
+}
+
+.footer-policy {
+    color: var(--light-color);
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28; 
+margin-top: 80px;
+display: flex;
+gap: 8px;
+flex-direction: column;
+opacity: 0.9;
+}
+
+.footer-servise {
+    display: flex;
+    gap: 8px;
+}
+
+
+@media  screen and (min-width: 768px) {
+
+    .footer-logo-link {
+        display: none;
+    }
+
+    .footer-logo-link-tab {
+        display: flex;
+    }
+
+
+    .container-footer {
+        width: 768px;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .logo-text-form {
+        display: flex;
+        justify-content: space-between;
+        gap: 78px;
+    }
+
+    .footer-icon-link {
+        width: 40px;
+        height: 40px;
+        padding-top: 8px;
+        padding-left: 8px;
+        padding-bottom: 8px;
+        padding-right: 8px;
+    }
+
+    .footer-text{
+        width: 429px;
+        margin-top: 0;
+    }
+
+    .footer-slogan {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -0.02em;
+    }
+
+    .footer-slogan-text {
+    color: rgba(232, 232, 226, 0.70);
+    font-size: 18px;
+    line-height: 1.33; 
+    margin-top: 20px;
+    }
+
+    .footer-form{
+        margin-top: 64px;
+    }
+
+    .footer-email {
+        width: 336px;
+        gap: 20px;
+    }
+
+
+    .footer-email-text {
+        font-size: 18px;
+        line-height: 1.33;
+    }
+
+
+    .footer-policy {
+    flex-direction: row;
+    justify-content: space-between;
+    }
+}
+
+
+@media  screen and (min-width:1440px) {
+}
+
+.footer-social-icon {
+    gap: 8px;
+}
+
+
+.logo-text-form {
+    gap: 148px;
+}
+
+.text-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 148px;
+}
+
+.footer-form {
+    margin-top: 0;
+}
+
+
+/* Cтили для не валидных полей */
+input:invalid {
+    border-color: #900;
+    background-color: rgb(100, 122, 95);
+}
+
+input:focus:invalid {
+    outline: none;
+}
+
+/* Cтили для кастомных сообщений об ошибке */
+
+.error {
+    width: 100%;
+    padding: 0;
+
+    font-size: 80%;
+    color: rgb(14, 13, 13);
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+
+    box-sizing: border-box;
+}
+
+.error.active {
+    padding: 0.3em;
+}
+
