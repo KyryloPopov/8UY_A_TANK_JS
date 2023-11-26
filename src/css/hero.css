@@ -46,10 +46,9 @@
   width: 100px;
   height: 100px;
   flex-shrink: 0;
-  margin-right: 227px;
   position: absolute;
   top: -7px;
-  left: 227px;
+  right: 8px;
   z-index: 2;
 }
 
@@ -79,7 +78,7 @@
   }
   .hero-icon-organic-food {
     top: -30px;
-    left: 594px;
+    right: 10px;
   }
 }
 
@@ -99,6 +98,6 @@
   }
   .hero-icon-organic-food {
     top: -50px;
-    left: 1120px;
+    right: 20px;
   }
 }
