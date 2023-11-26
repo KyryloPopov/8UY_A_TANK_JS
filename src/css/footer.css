@@ -40,7 +40,7 @@ background-color: transparent;
 
 .footer-icon-link:hover,
 .footer-icon-link:focus {
-background: rgba(232, 232, 226, 0.20);
+    background: rgba(232, 232, 226, 0.20);
 }
 
 .footer-text{
@@ -58,12 +58,12 @@ background: rgba(232, 232, 226, 0.20);
 
 .footer-slogan-text {
     color: var(--light-color);
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 1.28; 
-margin-top: 14px;
-color: rgba(232, 232, 226, 0.70);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28; 
+    margin-top: 14px;
+    color: rgba(232, 232, 226, 0.70);
 }
 
 .footer-form{
@@ -137,6 +137,7 @@ opacity: 0.9;
     display: flex;
     gap: 8px;
 }
+
 
 
 @media  screen and (min-width: 768px) {
