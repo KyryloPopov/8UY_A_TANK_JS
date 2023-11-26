@@ -22,6 +22,7 @@
 }
 
 .discount-label {
+    /* z-index: 1; */
     position: absolute;
     left: 265px;
     top: 3px;
