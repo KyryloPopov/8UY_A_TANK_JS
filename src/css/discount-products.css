@@ -28,8 +28,8 @@
 }
 
 .product-photo {
-    width: 304px;
-    height: 150px;
+    /* width: 304px;
+    height: 150px; */
     padding: 18px 95px;
     border-radius: 10px;
     background: #e8e8e2;
@@ -39,7 +39,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 23px 8px 0px 0px;
+    padding-top: 23px;
 }
 
 .product-name,
