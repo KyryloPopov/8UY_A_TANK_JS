@@ -1,9 +1,6 @@
 
 @media screen and (min-width: 375px){
 
-    .footer-logo-link-tab{
-        display: none;
-    }
 }
 
 .footer {
@@ -93,6 +90,7 @@ padding-bottom: 20px;
 .footer-input-email {
     display: flex;
     width: 100%;
+    min-width: 375px;
     padding: 12px 18px;
     align-items: center;
     border-radius: 30px;
@@ -143,14 +141,6 @@ opacity: 0.9;
 
 @media  screen and (min-width: 768px) {
 
-    .footer-logo-link {
-        display: none;
-    }
-
-    .footer-logo-link-tab {
-        display: flex;
-    }
-
 
     .container-footer {
         width: 768px;
@@ -164,6 +154,11 @@ opacity: 0.9;
         display: flex;
         justify-content: space-between;
         gap: 78px;
+    }
+
+    .footer-logo-icon {
+        width: 197px;
+        height: 32px;
     }
 
     .footer-icon-link {
