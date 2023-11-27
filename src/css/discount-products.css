@@ -78,6 +78,7 @@
     fill: rgba(232, 232, 226, 1);
     background: #6d8434;
     border-radius: 30px;
+    border: none;
 }
 
 .cart-icon {
