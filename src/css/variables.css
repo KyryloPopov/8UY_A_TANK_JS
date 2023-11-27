@@ -36,7 +36,7 @@ body {
 
 @media (min-width: 768px) {
   .container {
-    min-width: 768px;
+    max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
@@ -44,7 +44,7 @@ body {
 
 @media (min-width: 1440px) {
   .container {
-    max-width: 1440px;
+    min-width: 1440px;
     padding-left: 100px;
     padding-right: 100px;
   }
