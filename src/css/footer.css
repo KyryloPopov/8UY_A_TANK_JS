@@ -198,6 +198,11 @@ opacity: 0.9;
         gap: 20px;
     }
 
+    ::placeholder {
+        color:  rgba(232, 232, 226, 0.60);
+        font-size: 16px;
+        line-height: 1.5;
+    }
 
     .footer-email-text {
         font-size: 18px;
@@ -218,7 +223,6 @@ opacity: 0.9;
 .footer-social-icon {
     gap: 8px;
 }
-
 
 .logo-text-form {
     gap: 148px;
