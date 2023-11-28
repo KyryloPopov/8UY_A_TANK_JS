@@ -87,6 +87,7 @@
 }
 
 @media screen and (min-width: 768px) {
+
   .product-card {
     width: 336px;
     height: 360px;
@@ -95,6 +96,7 @@
     padding: 20px;
     position: relative;
   }
+
   .product-btn-scroll {
     display: flex;
     justify-content: center;
