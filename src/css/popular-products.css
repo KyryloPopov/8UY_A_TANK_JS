@@ -118,7 +118,7 @@ color: var(--black-color);
   align-items: flex-end;
   gap: 13px;
 }
-.contain {
+.products-contain {
   width: 335px;
   margin: auto;
 }
@@ -140,7 +140,7 @@ color: var(--black-color);
     width: 275px;
     height: 98px;
   }
-  .contain {
+  .products-contain {
     width: 100%;
     margin: auto;
   }
@@ -167,7 +167,7 @@ color: var(--black-color);
     align-items: flex-end;
     gap: 13px;
   }
-  .contain {
+  .products-contain {
     margin-top: 136px;
     width: 275px;
     display: flex;
