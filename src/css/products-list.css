@@ -155,9 +155,6 @@
 }
 
 @media screen and (min-width: 1158px) {
-  .container {
-    max-width: 1158px;
-  }
   .product-card {
     width: 295px;
     height: 363px;
