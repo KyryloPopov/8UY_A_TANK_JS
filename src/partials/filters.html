@@ -9,7 +9,7 @@
 </head>
 
 <body> -->
-<section>
+<!-- <section>
 
     <div class="container ">
         <div class="styleFilterPosition ">
@@ -32,8 +32,8 @@
                     <option value="1">Beverages </option>
                     <option value="2">Breads & Bakery</option>
                     <option value="3">Dairy</option>
-                    <option value="4">Deli</option>
-                    <option value="5">Eggs</option>
+                    <option value="Deli">Deli</option>
+                    <option value="Eggs">Eggs</option>
                     <option value="6">Fresh Produce</option>
                     <option value="7">Frozen Foods</option>
                     <option value="8">Meat & Seafood</option>
@@ -51,8 +51,38 @@
         </div>
 
     </div>
-</section>
+</section> -->
 <!-- <script src="./main.js"></script>
 </body>
 
 </html> -->
+
+<section class="filters">
+    <div class="container">
+        <div class="styleFilterPosition">
+            <h2 class="styleFilter">Filters:</h2>
+        </div>
+        <form class="search-form">
+            <div class="styleForm">
+                <div class="search-container">
+                    <input type="text" name="keyword" class="search-input" autocomplete="off"
+                        placeholder="Search for anything" />
+                    <button type="submit" class="search-button">
+                        <svg width="20" height="20">
+                            <use href="./img/kupi-tank-sprite.svg#icon-search"></use>
+                        </svg>
+                    </button>
+                </div>
+                <div class="category-container">
+                    <select name="category" id="categorySelect" class="categorySelect"></select>
+                    <button type="button" class="arrow-container">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M5 7.5L10 12.5L15 7.5" stroke="#010101" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
